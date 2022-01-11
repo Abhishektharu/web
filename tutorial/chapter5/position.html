@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        /* * {
+            margin: 0px;
+            padding: 0px;
+        } */
+
+        li {
+            background-color: yellow;
+            color: black;
+
+        }
+        ul{
+            list-style: circle;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            border: 2px solid red;
+        }
+
+        .box1 {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            position: relative;
+
+        }
+
+        .box2 {
+            background-color: green;
+        }
+        header{
+            top: 0;
+            position: sticky;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sunt et culpa natus ex facilis quia
+            quisquam ipsa iusto sit in beatae, commodi exercitationem distinctio nemo hic quam esse, nesciunt quod
+            suscipit ipsum! Neque officia ipsum rem alias recusandae harum minima deserunt, aliquam quae tenetur ducimus
+            doloremque sequi excepturi laudantium odio necessitatibus molestias unde molestiae consequuntur consectetur.
+            Reprehenderit iusto quo eaque ipsum quisquam, minus tempora aliquam autem veritatis natus totam qui nisi
+            facere quidem? Porro deleniti nam temporibus soluta! Sequi, corporis, asperiores ex mollitia architecto
+            perferendis id accusantium repellat quaerat incidunt blanditiis recusandae consectetur assumenda molestiae
+            exercitationem nam dolorum ut!</p>
+        <div class="box1">I am box </div>
+    </div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore provident beatae doloremque ullam
+        harum vero nulla delectus labore minus magnam? Expedita accusamus aut officiis perferendis blanditiis natus
+        impedit consectetur odio beatae cupiditate dolor, sequi dolore laudantium eligendi consequatur doloremque,
+        adipisci similique ipsum iste modi?</div>
+    <ul>
+        <li>Home</li>
+        <li>Home1</li>
+        <li>Home2</li>
+        <li>Home3</li>
+    </ul>
+</body>
+
+</html>
