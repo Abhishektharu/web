@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Island+Moments&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1d5cc3;
+    font-family: 'Be Vietnam Pro', sans-serif
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 11px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 26px;
+    padding: 13px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0 2px 0 5px;
+}
+
+.slider {
+    margin: 12px auto;
+    width: 70vw;
+    overflow: hidden;
+}
+.card{
+    max-width: 94vw;
+    margin: auto;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 52px;
+}
+
+.container{
+    min-height: calc(100vh - 50px - 6vh);
+}
+
+footer{
+    height: 6vh;
+    background-color: #1d5cc3;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
