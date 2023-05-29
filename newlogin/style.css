@@ -1,0 +1,18 @@
+body{
+    padding: 50px;
+}
+
+.form-control{
+    margin-top: 10px;
+}
+
+.form-btn{
+    margin-top: 10px;
+}
+.container{
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2);
+}
